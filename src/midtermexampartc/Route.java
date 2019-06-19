@@ -15,7 +15,7 @@ import java.util.Scanner;
  */
 public class Route 
 {
-    private String name; //the name of the route, like "Rogers Centre"
+    public String name; //the name of the route, like "Rogers Centre"
     private int distance; //the distance from you in kms
     private int travelTime = 0;//time in minutes to get there driving an average of 60km/hr
     public  String[] constraints = {"toll free", "HOV lane", "avoid major highways"};
